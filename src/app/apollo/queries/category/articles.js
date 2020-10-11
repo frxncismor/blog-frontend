@@ -10,7 +10,7 @@ const CATEGORY_ARTICLES_QUERY = gql`
         title
         content
         image {
-          url
+          name
         }
         category {
           id
